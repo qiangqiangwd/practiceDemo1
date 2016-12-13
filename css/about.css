@@ -1,0 +1,141 @@
+
+/*ÄÚÈÝ²¿·Ö*/
+    /*about*/
+.about_cntIT{
+    width: 1140px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.about_txt,.about_img{
+    float: left;
+}
+.about_txt{
+    width: 630px;
+}
+.about_txt h6{
+    font-size: 1em;
+    line-height: 1.7em;
+    font-family: inherit;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.about_txt h6 a{
+    color: #663300;
+    text-decoration: none;
+}
+.about_txt p{
+    padding: .5em  0 0 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #838383;
+    font-size: .9em;
+    line-height: 1.7em;
+}
+.about_img{
+    width: 445px;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.about_img img{
+    width: 100%;
+}
+    /*furniture design*/
+.furnDesign{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 1.5em 0;
+}
+.furnDesign h3{
+    font-size: 2em;
+    color: #663300;
+    padding: .5em 15px;
+    font-family:'Metamorphous', cursive ;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.furnDesign_imgTxt{
+    overflow: hidden;
+}
+.furnDesign_imgTxt img{
+    width: 100%;
+}
+.furnDesign_imgTxt>div{
+    width: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.furnDesign_imgTxt p{
+    font-family: 'Open Sans', sans-serifs;
+    color:#838383;
+    font-size:.9em;
+    line-height: 1.7em;
+    padding: .8em 0 0;
+}
+.capabList ul{
+    width: 100%;
+    height: 36px;
+    background-color: #339966;
+    margin: 6px 0;
+    cursor: pointer;
+}
+.capabList ul li{
+    float: left;
+    list-style-type: none;
+    cursor: pointer;
+}
+.capabList ul li:nth-of-type(1){
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+}
+.capabList ul li img{
+    width: 100%;
+}
+.capabList ul li>p{
+    padding: 6px;
+    font-size: .9em;
+    color: #fff;
+}
+.capabList div{
+    width: 350px;
+    height: 60px;
+    overflow: hidden;
+    display: none;
+}
+.capabList div p{
+    color: #333;
+    font-size: .9em;
+    line-height: 1.4;
+    padding: 0;
+}
+.ourTeam_title{
+    width: 1140px;
+    margin: 0 auto;
+    padding: .8em 0;
+    text-align: center;
+    font-family: 'Metamorphous', cursive;
+    font-size: 2em;
+    color:#663300;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.ourTeam_img ul{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 1em 0;
+    overflow: hidden;
+}
+.ourTeam_img ul li{
+    float: left;
+    list-style-type: none;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+}
+.ourTeam_img ul li:nth-of-type(1){
+    margin-left: 200px;
+}

@@ -1,0 +1,48 @@
+
+
+/*ÄÚÈÝgallery²¿·Ö*/
+.gallery{
+    padding: 3em 0;
+    background-image: url("../img/bg.png");
+}
+.gallery_title{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gallery_title h3{
+    font-family: 'Metamorphous', cursive;
+    font-size: 3em;
+    color: #339966;
+    font-weight: 500;
+    margin-bottom: .6em;
+}
+.gallery ul{
+    width:1140px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.gallery ul li{
+    float:left;
+    list-style-type: none;
+    width: 370px;
+    height: 370px;
+    overflow: hidden;
+    margin: 5px;
+    position: relative;
+}
+.gallery ul li img{
+    height: 100%;
+    /*width: 100%;*/
+}
+.gallery ul li span{
+    display: inline-block;
+    width: 370px;
+    height: 370px;
+    background-color: rgba(51, 153, 102, 0.6);
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    z-index: 0;
+    cursor: pointer;
+}

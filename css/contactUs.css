@@ -1,0 +1,99 @@
+
+
+/*ÄÚÈÝ²¿·Ö*/
+.contentMap{
+    width: 1140px;
+    height: 380px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.contentForm{
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.contentFormL{
+    width: 760px;
+    padding: 4em 0;
+    float: left;
+}
+.contentStyle h4{
+    font-size: 1.7em;
+    color: #663300;
+    margin: 0 0 0.5em;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Metamorphous', cursive;
+}
+.contentStyle p{
+    font-size: .9em;
+    color:#302e2e;
+    line-height: 1.8em;
+    margin-bottom: 19px;
+    font-weight: 400;
+}
+form{
+    overflow: hidden;
+}
+.contentStyle input[type='text']{
+    padding: 11px;
+    width: 51%;
+    font-size: 1em;
+    margin: 10px 0;
+    border: 1px solid #302e2e;
+    color:#302e2e;
+    background: none;
+    float: left;
+    outline: none;
+    font-weight: 400;
+    border-radius: .3em;
+}
+.contentStyle textarea{
+    height: 200px;
+    resize: none;
+    width: 80%;
+    padding: 11px;
+    font-size: 1em;
+    margin: 10px 0;
+    border: 1px solid #302e2e;
+    color:#302e2e;
+    background: none;
+    float: left;
+    outline: none;
+    font-weight: 400;
+    border-radius: .3em;
+}
+.contentStyle input[type='submit']{
+    margin-top: 1em;
+    color:#fff;
+    font-size: .9em;
+    padding: .7em 1em;
+    -webkit-appearance: none;
+    /*display: inline-block;*/
+    transition: all ease-out .3s;
+    font-weight: 400;
+    border: none;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    width: 20%;
+    background-color: #339966;
+    border-radius: .3em;
+    float: left;
+}
+.contentStyle input[type='submit']:hover{
+    transition: all ease-out .3s;
+    background-color: #663300;
+}
+.contentFormR{
+    float: right;
+    padding: 4em 0 0 1em;
+    width: 350px;
+}
+.contentStyle a{
+    text-decoration: none;
+    color: #339966;
+}
+.contentStyle a:hover{
+    text-decoration: underline;
+}
